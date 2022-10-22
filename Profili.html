@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bank</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <style>
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+     
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+   
+   #hi
+    {
+      background-color:rgb(54, 54, 248);
+    }
+    #tekst
+    {
+      color:whitesmoke;
+    }
+    .video
+    {
+      margin-top: -45px;
+    }
+   .navbar 
+    {
+      background-color:white;
+      color: green;
+      
+    }
+    
+    .dropdown-menu
+    {
+      background-color: blue;
+      color: white;
+    }
+    .nav 
+    {
+      color: green;
+    }
+   .diti
+   {
+    background-color: #f2f2f2;
+   }
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.he
+{
+  background-color: blue;
+  color:white;
+}
+.footer
+{
+  background-color: rgb(28, 28, 250);
+  color: white;
+}
+.foot
+{
+  background-color: blue;
+  color:grey;
+}
+.active-pink .glyphicon, .active-pink-2 .glyphicon {
+    color:blue;
+}
+#tab
+{
+  background-color: white;
+}
+#col
+{
+  background-color: white;
+
+}
+#col:hover
+{
+  background-color: blue;
+  color: white;
+}
+#right
+{
+  margin-left: 250px;
+  margin-top: -100px;
+}
+#tab:hover
+{
+  background-color: blue;
+  color:white;
+}
+
+   </style>
+</head>
+<body background="wall.svg">
+<div class="he">
+    <div class="container-fluid">
+<div class="row">
+<div class="col-md-1">
+</div>
+<div class="col-md-2">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ProfiliEN.html" class="he">ENG</a> &nbsp;
+<a href="Profili.html" class="he">ALB</a></p>
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-1">
+<a href="#" class="he"><h5>HARTA</h5></a>
+</div>
+<div class="col-md-4">
+  <form class="form-inline md-form form-sm active-cyan-2 mt-2">
+    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Kërko..." aria-label="Search">
+    <i class="glyphicon glyphicon-search"></i>
+  </form>
+</div>
+</div>
+</div> 
+</div>
+ <div style="background-color:white;">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="alb.jpg" height="90" width="350" /> 
+        <div style="margin-left:1100px; margin-top:-40px;">
+        <img class="img-circle" src="fb.png" height="40" width="40"/>
+      </div>
+      <div style="margin-left:1150px; margin-top:-40px;">
+          <img class="img-circle" src="inst.png" height="40" width="40"/>
+        </div>
+        <div style="margin-left:1200px; margin-top:-40px;">
+            <img class="img-circle" src="you.png" height="38" width="38"/>
+          </div>
+ </div>
+<nav class="navbar navbar-expand-sm bg-success navbar-light" >
+        <div class="container-fluid">
+            <ul class="nav navbar-nav" >
+            <li class="active"><a href="Home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Persona Fizikë<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="depozita.html">Depozita</a></li>
+                <li><a href="Kredi.html">Kredi</a></li>
+                <li><a href="Siguria.html">Sigurimi</a></li>
+                <li><a href="Letra.html">Letra me vlerë</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Persona Juridikë<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Kuresimi.html">Kursimi</a></li>
+                  <li><a href="Mjete.html">Linja kreditore</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rreth nesh<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Profili.html">Profili i Bankës</a></li>
+                  <li><a href="Deget.html">Degët</a></li>
+                  <li><a href="Pune.html">Punësimi</a></li>
+                </ul>
+              </li>
+              <li ><a href="Kontakt.html">Kontakt</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Regjistrohu</a></li>
+              <li><a href="Logo.html"><span class="glyphicon glyphicon-log-in"></span> Logohu</a></li>
+          </ul>
+        </div>
+       </nav>
+    
+    <div class="container" >
+      <div class="row">
+          <div class="col-md-3"><br><br><br><br><br>
+            <right>
+                <p >LINKET MË TË RËNDËSISHME</p> 
+                <hr width="250" style="background-color:blue; border-style: inset; border-width: 1px;">
+              </right>
+              <table class="table-hover"  >
+                <tr id="tab">
+                  <td>&nbsp;<img src="8.jpg" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; KALKULATORI &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                  
+                </tr>
+                <tr id="tab">
+                    <td>&nbsp;<img src="9.png" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; DOKUMENTE &nbsp;&nbsp;</td>
+                  </tr>
+                   <tr id="tab">
+                      <td>&nbsp;<img src="10.png" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; TRANSFERIMI &nbsp;&nbsp;</td>
+                    </tr>
+              </table>
+            </div>
+          <div class="col-md-9" style="background-color:white;">
+      <center>
+          <img src="bank.jpg" width="850" height="300" class="img-thumbernail" />
+          <h3 style="color:rgb(148, 145, 145);">PROFILI I BANKËS</h3>
+        </center>
+          <p>
+              <br><br>
+              <h5><b>  &nbsp; &nbsp;ALB BANK A.D. TETOVË</b></h5><br>
+ &nbsp;  &nbsp; Alb Bank është një ndër brendet më të mëdha dhe më të fuqishëm në tregun financiar të Maqedonisë.
+ <br>  &nbsp;  Që nga ekzistimi 30 vjeçar i institucion financiar, ja çka paraqet sot Alb Bank:
+                <ul>
+                <li>Sot jemi banka e katërt më e madhe në treg sipas aktivës, në shumë prej 768,2 milionë euro.</li>
+                <li>Jemi prezent kudo nëpër Maqedoni, duke ofruar shërbime klientëve tanë përmes rrjetit tonë të gjerë të degëve, që përfshijnë 41 degë.</li>
+                <li>Numërojmë mbi 530 të punësuar.</li>
+                <li>Rrjeti ynë i bankomatëve përbëhet prej 131 bankomatëve.</li>
+                <li>Disponojmë me rrjet të gjerë prej mbi 6.385 POS terminale në dispozicion te partnerët tanë tregtarë.</li>
+                <li>Shërbejmë mijëra qytetarë, si dhe ndërmarrje të vogla dhe të mesme dhe ndërmarrje korporative dhe institucione publike.</li>
+              </ul>
+  &nbsp; &nbsp;Klientëve tanë ju ofrojmë asortiment të gjerë të shërbimeve financiare, përfshirë edhe bankingun e personalizuar, kartelat kreditore, kreditë e banimit, kreditë konsumatore, kursimet, kreditë biznesore si dhe qarkullimin pagesor në vend dhe jashtë vendit.
+ Klientëve tanë ju ofrojmë asortiment të gjerë të shërbimeve financiare, përfshirë edhe bankingun e personalizuar, kartelat kreditore, kreditë e banimit, kreditë konsumatore, kursimet, kreditë biznesore si dhe qarkullimin pagesor në vend dhe jashtë vendit.
+ <h5><b> &nbsp; &nbsp;VIZIONI YNË</b></h5><hr>
+ &nbsp; &nbsp; Vizioni ynë është që të bëhemi banka e parë në rajon e cila do të jetë e aftë ti kryejë të gjitha kërkesat e bankingut univerzal dhe duke afirmuar prezencë të fuqishme në shërbimet në fushën e popullsisë.
+<br><br>
+ <h5><b> &nbsp; &nbsp;MISIONI YNË</b></h5><hr>
+ &nbsp; &nbsp;Misioni ynë është të krijojmë vlerë për klientët tanë, aksionarët dhe të punësuarit përmes ofrimit efikas të gjitha shërbimeve bankare; të jemi të vetëdijshëm për përgjegjësinë dhe obligimin tonë shoqëror korporativ; të kontribojmë në zhvillimin e sektorit bankar dhe tregut të kapitalit; si dhe të arrijmë pozicion të respektuar në tregun rajonal.
+ <br><br>
+ <h5><b> &nbsp; &nbsp;VLERAT TONA KORPORATIVE</b></h5> <hr>
+ <ul>
+     <li>Fokusim drejt klientëve</li>
+     <li>Siguri</li>
+     <li>Integritet dhe respekt</li>
+     <li>Drejtësi, besim dhe transparencë</li>
+     <li>Efikasitet operativ</li>
+     <li>Inovacion</li>
+     <li>Krijim vlerash</li>
+     <li>Produktivitet</li>
+     <li>Të hapur ndaj ndyshimeve</li>
+     <li>Ndarje të njohurive dhe përvojës</li>
+     <li>Të vetëdijshëm për përgjegjësinë shoqërore</li>
+ </ul>
+ <br>
+<b>  &nbsp; &nbsp; ALB BANK</b> – kuptimi i emërtimit: Banka e njerëzve<br>
+<b>  &nbsp; &nbsp; Slogani ynë:</b> Të rëndësishëm janë njerëzit
+<br> <br>
+<h5><b> &nbsp; &nbsp; PARIMET TONA KRYESORE:</b></h5>
+ <ul>
+  <li>Të ofrojmë shërbim të shkëlqyer për klientët tanë, duke ju propozuar zgjidhjet më të mira për nevojat e tyre.</li>
+  <li>Të krijojmë dhe zbatojmë kulturë të suksesshme korporative, duke i dhënë rëndësi secilit anëtar të ekipit që po e ndërtojmë.</li>
+ </ul>
+</p>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+    <div class="col-md-4"  >
+    <table class="table-hover" > 
+      <tr id="col">
+        <td >
+         <p> <h3> &nbsp;&nbsp; Informohu për</h3>
+          <h4  >&nbsp;&nbsp;&nbsp;KREDI ME DEPOZITË</h4>
+          <p > 
+              &nbsp;&nbsp;&nbsp;&nbsp; Merr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kredi me depozite
+              </p>
+              <img src="next.png" width="100" height="100" id="right"/>
+              </p>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div class="col-md-4"  >
+        <table class="table-hover" > 
+          <tr id="col">
+            <td >
+             <p> <h3> &nbsp;&nbsp; Merr</h3>
+              <h4  >&nbsp;&nbsp;&nbsp; KARTELA KREDITORE</h4>
+              <p > 
+                  &nbsp;&nbsp;&nbsp;&nbsp; Ti paguan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ne ju japim bonusa!
+                  </p>
+                  <img src="next.png" width="100" height="100" id="right"/>
+                  </p>
+            </td>
+          </tr>
+        </table>
+        </div>
+        <div class="col-md-4"  >
+            <table class="table-hover" > 
+              <tr id="col">
+                <td >
+                 <p> <h3> &nbsp;&nbsp; Shko në</h3>
+                  <h4  >&nbsp;&nbsp;&nbsp;E-BANKING</h4>
+                  <p > 
+                      &nbsp;&nbsp;&nbsp;&nbsp; Bëj<br>&nbsp;&nbsp;&nbsp;&nbsp; Transakcione bankare nga kudo !
+                      </p>
+                      <img src="next.png" width="100" height="100" id="right"/>
+                      </p>
+                </td>
+              </tr>
+            </table>
+            </div>
+    </div>
+    </div>
+<br>         
+   <div class="footer">
+      <div class="container-fluid">
+      <div class="row"><br>
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <h4 style="color: rgb(248, 212, 145);">POPULLSIA</h4>
+        <h5>Depozita</h5>
+        <h5>Kredi</h5>
+        <h5>Sigurimi</h5>
+        <h5>Letra me vlerë</h5>
+      </div>
+      <div class="col-md-2">
+          <h4 style="color: rgb(248, 212, 145);">PERSONA JURIDIKË</h4>
+          <h5>Kursimi</h5>
+          <h5>Linja kreditore</h5>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+          <h4 style="color: rgb(248, 212, 145);">PËR NE</h4>
+          <h5>Profili i bankës</h5>
+          <h5>Degët</h5>
+          <h5>Punësimi</h5>
+      </div>
+      <div class="col-md-2"></div>
+     </div>
+     <div class="foot">
+        <div class="container-fluid">
+       <center>
+         <br>
+        <p><span class="glyphicon glyphicon-copyright-mark"></span> Albon Idrizi &nbsp; 2019</p>
+        
+      </center>
+      </div>
+      </div>
+   </div>
+  
+  </div>
+  </body>
+</html>

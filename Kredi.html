@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bank</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <style>
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+     
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+   
+   #hi
+    {
+      background-color:rgb(54, 54, 248);
+    }
+    #tekst
+    {
+      color:whitesmoke;
+    }
+    .video
+    {
+      margin-top: -45px;
+    }
+   .navbar 
+    {
+      background-color:white;
+      color: green;
+      
+    }
+    
+    .dropdown-menu
+    {
+      background-color: blue;
+      color: white;
+    }
+    .nav 
+    {
+      color: green;
+    }
+   .diti
+   {
+    background-color: #f2f2f2;
+   }
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.he
+{
+  background-color: blue;
+  color:white;
+}
+.footer
+{
+  background-color: rgb(28, 28, 250);
+  color: white;
+}
+.foot
+{
+  background-color: blue;
+  color:grey;
+}
+.active-pink .glyphicon, .active-pink-2 .glyphicon {
+    color:blue;
+}
+#tab
+{
+  background-color: white;
+}
+#col
+{
+  background-color: white;
+
+}
+#col:hover
+{
+  background-color: blue;
+  color: white;
+}
+#right
+{
+  margin-left: 250px;
+  margin-top: -100px;
+}
+#tab:hover
+{
+  background-color: blue;
+  color:white;
+}
+   </style>
+</head>
+<body background="wall.svg">
+<div class="he">
+    <div class="container-fluid">
+<div class="row">
+<div class="col-md-1">
+</div>
+<div class="col-md-2">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="KrediEN.html" class="he">ENG</a> &nbsp;
+<a href="Kredi.html" class="he">ALB</a></p>
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-1">
+<a href="#" class="he"><h5>HARTA</h5></a>
+</div>
+<div class="col-md-4">
+  <form class="form-inline md-form form-sm active-cyan-2 mt-2">
+    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Kërko..." aria-label="Search">
+    <i class="glyphicon glyphicon-search"></i>
+  </form>
+</div>
+</div>
+</div> 
+</div>
+ <div style="background-color:white;">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="alb.jpg" height="90" width="350" />  
+        <div style="margin-left:1100px; margin-top:-40px;">
+        <img class="img-circle" src="fb.png" height="40" width="40"/>
+      </div>
+      <div style="margin-left:1150px; margin-top:-40px;">
+          <img class="img-circle" src="inst.png" height="40" width="40"/>
+        </div>
+        <div style="margin-left:1200px; margin-top:-40px;">
+            <img class="img-circle" src="you.png" height="38" width="38"/>
+          </div>
+ </div>
+<nav class="navbar navbar-expand-sm bg-success navbar-light" >
+        <div class="container-fluid">
+            <ul class="nav navbar-nav" >
+            <li class="active"><a href="Home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Persona Fizikë<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="depozita.html">Depozita</a></li>
+                <li><a href="Kredi.html">Kredi</a></li>
+                <li><a href="Siguria.html">Sigurimi</a></li>
+                <li><a href="Letra.html">Letra me vlerë</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Persona Juridikë<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Kuresimi.html">Kursimi</a></li>
+                  <li><a href="Mjete.html">Linja kreditore</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rreth nesh<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Profili.html">Profili i Bankës</a></li>
+                  <li><a href="Deget.html">Degët</a></li>
+                  <li><a href="Pune.html">Punësimi</a></li>
+                </ul>
+              </li>
+              <li ><a href="Kontakt.html">Kontakt</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Regjistrohu</a></li>
+              <li><a href="Logo.html"><span class="glyphicon glyphicon-log-in"></span> Logohu</a></li>
+          </ul>
+        </div>
+       </nav>
+    
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-3"><br><br><br><br><br>
+          <right>
+              <p >LINKET MË TË RËNDËSISHME</p> 
+              <hr width="250" style="background-color:blue; border-style: inset; border-width: 1px;">
+            </right>
+            <table class="table-hover"  >
+              <tr id="tab">
+                <td>&nbsp;<img src="8.jpg" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; KALKULATORI &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                
+              </tr>
+              <tr id="tab">
+                  <td>&nbsp;<img src="9.png" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; DOKUMENTE &nbsp;&nbsp;</td>
+                </tr>
+                 <tr id="tab">
+                    <td>&nbsp;<img src="10.png" width="50" height="50" class="img-circle"/> &nbsp;&nbsp; TRANSFERIMI &nbsp;&nbsp;</td>
+                  </tr>
+            </table>
+          </div>
+        <div class="col-md-9" style="background-color:white;">
+      <center>
+          <img src="kred.jpg" width="850" height="300" class="img-thumbernail" />
+          <h3 style="color:rgb(148, 145, 145);">RELAX KREDI KONSUMATORE PA DEDIKIM ME SIGURIM JETËSOR</h3><br>
+        </center>
+          <p>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>KUSHTET PËR KREDI:</b>
+              <ul style="list-style-type:square;">
+                <li><b>Shuma:</b> deri 1.200.000,00 MKD</li>
+                <li><b>Afati maksimal:</b> deri 120 muaj </li>
+                <li><b>Aftësia kreditore:</b> në përputhje me të ardhurat mujore</li>
+                <li><b>Interesi:</b> 5,90% normë fikse të interesit për 2 vitet e para, për periudhën e mbetur 8,00% normë variabile të interesit (norma referente për përllogaritjen e normës ligjore të sanksionit e  cila për momentin e nënshkrimit të kontratës është 2,50% e rritur për 5,50 pp) (SVT 7,42%)*polisa nuk përfshihet në përllogaritjen për SVT</li>
+                <li><b>Komisioni për shqyrtimin e kredisë:</b>0%</li>
+                <li><b>Komisioni për likuidim të parakohshëm:</b>0%</li>
+                <li><b>Shpenzimet për kredi:</b></li>
+                <ul style="list-style-type:square;">
+                    <li>350,00 MKD  - kontrollë në Byronë kreditore  (komisioni paguhet para arkëtimit të kredisë dhe nuk paguhet për kërkesat e refuzuara dhe anuluara), shuma e shpenzimit të polissës së sigurimit jetësor varet nga tarifa e shoqërisë së sigurimit</li>
+                    <li>150 MKD – aplikacion për kredi,</li>
+                </ul>
+            </ul>
+            <br><br>
+            &nbsp; &nbsp;
+            <i>*7,42% SVT për kredi në shumë prej 600.000 MKD, normë interesi të ndryshueshme prej 8,00 %, afat të shlyerjes 120 muaj, shpenzime aplikimi prej 150 MKD dhe shpenzime shqyrtimi në BMK prej 350 MKD
+            <br> &nbsp; &nbsp; **Në lartësinë e normës vjetore të shpenzimeve të përgjithshme (SVT), ndikon afati i shlyerjes së kredisë, shuma e kredisë, shuma e shpenzimeve të kredisë që janë të përfshira në përllogaritje të SVT-së dhe lartësia e normës së kontraktuar të interesit.</i>
+            </p>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+    <div class="col-md-4"  >
+    <table class="table-hover" > 
+      <tr id="col">
+        <td >
+         <p> <h3> &nbsp;&nbsp; Informohu për</h3>
+          <h4  >&nbsp;&nbsp;&nbsp;KREDI ME DEPOZITË</h4>
+          <p > 
+              &nbsp;&nbsp;&nbsp;&nbsp; Merr<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kredi me depozite
+              </p>
+              <img src="next.png" width="100" height="100" id="right"/>
+              </p>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div class="col-md-4"  >
+        <table class="table-hover" > 
+          <tr id="col">
+            <td >
+             <p> <h3> &nbsp;&nbsp; Merr</h3>
+              <h4  >&nbsp;&nbsp;&nbsp; KARTELA KREDITORE</h4>
+              <p > 
+                  &nbsp;&nbsp;&nbsp;&nbsp; Ti paguan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ne ju japim bonusa!
+                  </p>
+                  <img src="next.png" width="100" height="100" id="right"/>
+                  </p>
+            </td>
+          </tr>
+        </table>
+        </div>
+        <div class="col-md-4"  >
+            <table class="table-hover" > 
+              <tr id="col">
+                <td >
+                 <p> <h3> &nbsp;&nbsp; Shko në</h3>
+                  <h4  >&nbsp;&nbsp;&nbsp;E-BANKING</h4>
+                  <p > 
+                      &nbsp;&nbsp;&nbsp;&nbsp; Bëj<br>&nbsp;&nbsp;&nbsp;&nbsp; Transakcione bankare nga kudo !
+                      </p>
+                      <img src="next.png" width="100" height="100" id="right"/>
+                      </p>
+                </td>
+              </tr>
+            </table>
+            </div>
+    </div>
+    </div>
+<br>         
+   <div class="footer">
+      <div class="container-fluid">
+      <div class="row"><br>
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <h4 style="color: rgb(248, 212, 145);">POPULLSIA</h4>
+        <h5>Depozita</h5>
+        <h5>Kredi</h5>
+        <h5>Sigurimi</h5>
+        <h5>Letra me vlerë</h5>
+      </div>
+      <div class="col-md-2">
+          <h4 style="color: rgb(248, 212, 145);">PERSONA JURIDIKË</h4>
+          <h5>Kursimi</h5>
+          <h5>Linja kreditore</h5>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+          <h4 style="color: rgb(248, 212, 145);">PËR NE</h4>
+          <h5>Profili i bankës</h5>
+          <h5>Degët</h5>
+          <h5>Punësimi</h5>
+      </div>
+      <div class="col-md-2"></div>
+     </div>
+     <div class="foot">
+        <div class="container-fluid">
+       <center>
+         <br>
+        <p><span class="glyphicon glyphicon-copyright-mark"></span> Albon Idrizi &nbsp; 2019</p>
+        
+      </center>
+      </div>
+      </div>
+   </div>
+  
+  </div>
+  </body>
+</html>
